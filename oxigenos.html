@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extintores del Guadiana</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    
+
+    
+    <div class="logo">
+        <img src="img/logo4.png" alt="Logo Extintores del Guadiana">
+    </div>
+
+    
+    <nav>
+
+       <a href="index.html">Inicio</a>
+
+        <div class="dropdown">
+            <a href="#">Servicios ▾</a>
+
+            <div class="dropdown-menu">
+                <a href="extintores.html">Extintores</a>
+                <a href="oxigenos.html">Oxígeno</a>
+                <a href="Artículosparasoldador.html">Artículos para soldador</a>
+            </div>
+        </div>
+
+        <a href="contacto.html">Contactos</a>
+
+    </nav>
+
+
+    <div class="buscador">
+        <input type="text" id="buscarInput" placeholder="Buscar material...">
+        <button class="btn-buscar" onclick="buscar()">🔍</button>
+
+        <ul id="sugerencias"></ul>
+   </div>
+    
+    
+</header>
+
+
+<section class="imagen-principal">
+    <img src="img/gases.png" alt="Oxígeno medicinal">
+</section>
+
+
+<div class="titulo-barra">
+    Oxígenos
+</div>
+
+
+<section class="extintor" id="argonindustrial">
+    <div class="extintor-info">
+
+        <img src="img/argon.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Argon industrial</h2>
+
+            <p>
+                Gas inerte utilizado principalmente en procesos de soldadura (TIG y MIG),
+                 protege el metal fundido evitando la oxidación.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="extintor" id="oxigenoindustrial">
+    <div class="extintor-info">
+
+        <img src="img/oxigenoindustrial-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Oxigeno industrial</h2>
+
+            <p>
+                Se usa en corte y soldadura, favoreciendo la 
+                combustión para alcanzar altas temperaturas.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="extintor" id="acetileno">
+    <div class="extintor-info">
+
+        <img src="img/argon-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Acetileno</h2>
+
+            <p>
+                Gas altamente inflamable usado junto con oxígeno 
+                para soldadura y corte de metales.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="extintor" id="dioxidodecarbono">
+    <div class="extintor-info">
+
+        <img src="img/bioxido-de-carbono-industrial-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Bioxido de carbono</h2>
+
+            <p>
+                Gas utilizado en soldadura MIG y también en sistemas contra incendios;
+                 no es inflamable.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<section class="extintor" id="mezcla">
+    <div class="extintor-info">
+
+        <img src="img/productsgases-mezclas-soldar_5-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Mezcala </h2>
+
+            <p>
+                Combinación de gases 
+                (como argón y CO₂) usada para mejorar la calidad de soldadura según la aplicación.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="extintor" id="oxigenomedicinal">
+    <div class="extintor-info">
+
+        <img src="img/oxigenoindustrial-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Oxigeno medicinal </h2>
+
+            <p>
+                Gas de alta pureza utilizado en hospitales y 
+                atención médica para tratamientos respiratorios.
+            </p>
+
+            <a href="oxigenomedicinal.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="extintor" id="nitrogeno">
+    <div class="extintor-info">
+
+        <img src="img/productsgases-nitrogeno-especial_7-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Nitrogeno  </h2>
+
+            <p>
+                Gas inerte usado para inflado, conservación, pruebas de presión y 
+                procesos industriales.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<div class="titulo-barra">
+    Materiales para oxigeno
+</div>
+
+
+<section class="extintor" id="reguladoroxigeno">
+    <div class="extintor-info">
+
+        <img src="img/co2-59-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Regulador para oxigeno </h2>
+
+            <p>
+                Dispositivo que controla la presión del oxígeno al 
+                salir del cilindro para un uso seguro.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="extintor" id="reguladoryugo">
+    <div class="extintor-info">
+
+        <img src="img/REG-YUGO-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Regulador de yugo </h2>
+
+            <p>
+                Tipo de regulador que se ajusta mediante un sistema de sujeción (yugo), 
+                común en tanques pequeños.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="extintor" id="reguladoroxigenoindustrial">
+    <div class="extintor-info">
+
+        <img src="img/images-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Regulador de oxigeno industrial  </h2>
+
+            <p>
+                Especializado para trabajos industriales, permite controlar 
+                con precisión el flujo de oxígeno.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="extintor" id="mascarillaoxigeno">
+    <div class="extintor-info">
+
+        <img src="img/images__1_-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Mascarilla de oxigeno </h2>
+
+            <p>
+                Equipo médico que permite administrar oxígeno directamente al paciente.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="extintor" id="boquillaacetileno">
+    <div class="extintor-info">
+
+        <img src="img/products4137-boquilla-corte-oxigeno-acetileno-removebg-preview.png" alt="Extintores" class="img">
+
+        <div class="texto">
+            <h2> Boquilla para acetileno </h2>
+
+            <p>
+                Accesorio que dirige la salida del gas en equipos de soldadura,
+                permitiendo un trabajo preciso.
+            </p>
+
+            <a href="contacto.html" class="btn-info">INFORMACIÓN</a>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-contenido">
+
+        <!-- LOGO -->
+        <div class="footer-logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <!-- SERVICIOS -->
+        <div class="footer-col">
+            <h3>SERVICIOS</h3>
+
+            <a href="extintores.html">EXTINTORES</a>
+            <a href="oxigenos.html">GAS</a>
+            <a href="soldadura.html">SOLDADURA</a>
+            <a href="guantes.html">GUANTES</a>
+            <a href="materialparasoldadura.html">MATERIALES</a>
+        </div>
+
+        <!-- CONTACTOS -->
+        <div class="footer-col">
+            <h3>CONTACTOS</h3>
+
+            <!-- GMAIL -->
+            <a href="mailto:extintoresaguadiana@gmail.com">
+                extintoresaguadiana@gmail.com
+            </a>
+
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/526184975915" target="_blank">
+                6184975915
+            </a>
+
+            <a href="https://wa.me/526181059020" target="_blank">
+                6181059020
+            </a>
+        </div>
+
+        <!-- MAPA -->
+        <div class="footer-mapa">
+            <iframe 
+                src="https://www.google.com/maps?q=24.0518839,-104.6890973&output=embed"
+                width="100%" 
+                height="220" 
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+
+    <div class="footer-copy">
+        © Extintores del Guadiana
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
