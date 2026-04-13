@@ -39,6 +39,8 @@ setInterval(() => {
         titulo.textContent = "Oxígeno Medicinal";
         descripcion.textContent =
         "Suministro disponible las 24 horas";
+
+        boton.href = "oxigenomedicinal.html";
     }
 
 }, 3000);
